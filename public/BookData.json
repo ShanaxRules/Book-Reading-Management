@@ -1,0 +1,98 @@
+[
+    {
+        "bookId": "1",
+        "bookName": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "image": "https://m.media-amazon.com/images/I/81y9uCHoxrL._SL1500_.jpg",
+        "review": "A gripping psychological thriller with an unexpected twist.",
+        "totalPages": 336,
+        "rating": 4.6,
+        "category": "Thriller",
+        "tags": [
+            "Suspense",
+            "Psychological"
+        ],
+        "publisher": "Celadon Books",
+        "yearOfPublishing": 2019
+    },
+    {
+        "bookId": "2",
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://cdn.britannica.com/21/182021-050-666DB6B1/book-cover-To-Kill-a-Mockingbird-many-1961.jpg",
+        "review": "An unforgettable novel of childhood and moral growth.",
+        "totalPages": 324,
+        "rating": 4.9,
+        "category": "Classic",
+        "tags": [
+            "Historical",
+            "Social Justice"
+        ],
+        "publisher": "J.B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": "3",
+        "bookName": "Atomic Habits",
+        "author": "James Clear",
+        "image": "https://m.media-amazon.com/images/I/61M6KzUbf7L._SL1200_.jpg",
+        "review": "Practical advice on how to form and stick to good habits.",
+        "totalPages": 320,
+        "rating": 4.8,
+        "category": "Self-Help",
+        "tags": [
+            "Productivity",
+            "Personal Development"
+        ],
+        "publisher": "Avery Publishing Group",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "4",
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://pigeonbooks.co.uk/cdn/shop/products/image_0da6cb0c-d596-4863-b610-29a187edec3d_900x.jpg?v=1591551009",
+        "review": "A chilling depiction of a dystopian society under total surveillance.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Science Fiction",
+        "tags": [
+            "Dystopian",
+            "Political"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": "5",
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://m.media-amazon.com/images/I/712cDO7d73L._SL1500_.jpg",
+        "review": "A timeless tale of adventure and heroism in Middle-earth.",
+        "totalPages": 310,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Epic"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    },
+    {
+        "bookId": "6",
+        "bookName": "The Midnight Library",
+        "author": "Matt Haig",
+        "image": "https://media.licdn.com/dms/image/v2/D4D12AQG4HGYjQlZKeA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1680179240728?e=1740009600&v=beta&t=tiNv8RpPGU3ymucv7RvdCMYZjoUHMF4iiNDrg0k1RPg",
+        "review": "A heartwarming exploration of life's regrets and possibilities.",
+        "totalPages": 304,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": [
+            "Philosophical",
+            "Inspirational"
+        ],
+        "publisher": "Canongate Books",
+        "yearOfPublishing": 2020
+    }
+]
