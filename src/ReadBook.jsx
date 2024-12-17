@@ -1,4 +1,4 @@
-import { useLoaderData, useLocation, useOutletContext } from "react-router-dom";
+import { useLoaderData, useOutletContext } from "react-router-dom";
 import ReadCard from "./ReadCard";
 import { useEffect, useState } from "react";
 import { clearUp, getStoredBookObject } from "./localstorage";

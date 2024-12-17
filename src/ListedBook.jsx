@@ -1,6 +1,5 @@
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import './ListedBook.css'
-import { sortPages } from "./functions";
 import { useState } from "react";
 
 const ListedBook = () => {
