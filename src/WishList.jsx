@@ -1,8 +1,7 @@
-import { useLoaderData, useOutletContext } from "react-router-dom";
+import { useLoaderData, useNavigate, useOutletContext } from "react-router-dom";
 import WishCard from "./WishCard";
 import { useEffect, useState } from "react";
 import { getStoredWishObject } from "./localstorageWish";
-import { clearUp } from "./localstorage";
 import { sortPages, sortPublishedYear, sortRatings } from "./functions";
 
 const WishList = () => {
@@ -11,6 +10,13 @@ const WishList = () => {
 
     const [appliedWishes, setAppliedWishes] = useState([]);
     const { sortType } = useOutletContext();
+    const navigate = useNavigate();
+
+
+    const clearUp = () =>{
+        localStorage.clear();
+        navigate('/');
+    }
 
 
 

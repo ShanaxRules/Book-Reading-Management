@@ -1,7 +1,7 @@
-import { useLoaderData, useOutletContext } from "react-router-dom";
+import { useLoaderData, useNavigate, useOutletContext } from "react-router-dom";
 import ReadCard from "./ReadCard";
 import { useEffect, useState } from "react";
-import { clearUp, getStoredBookObject } from "./localstorage";
+import {  getStoredBookObject } from "./localstorage";
 import { sortPages, sortPublishedYear, sortRatings } from "./functions";
 
 const ReadBook = () => {
@@ -14,6 +14,14 @@ const ReadBook = () => {
     const { sortType } = useOutletContext();
 
     console.log("This is the context", sortType);
+
+    const navigate = useNavigate();
+
+
+    const clearUp = () =>{
+        localStorage.clear();
+        navigate('/');
+    }
 
     useEffect(() => {
         const storedBookID = getStoredBookObject();

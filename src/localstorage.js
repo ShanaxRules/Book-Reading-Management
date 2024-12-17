@@ -1,3 +1,5 @@
+
+
 const getStoredBookObject = () =>{
     const storedBookObject = localStorage.getItem('book-objects');
     if(storedBookObject){
@@ -20,9 +22,7 @@ const saveBookObject = id =>{
 
 }
 
-const clearUp = () =>{
-    localStorage.clear();
-    window.location.reload();
-}
 
-export {getStoredBookObject , saveBookObject , clearUp}
+
+
+export {getStoredBookObject , saveBookObject}
